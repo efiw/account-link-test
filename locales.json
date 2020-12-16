@@ -1,0 +1,41 @@
+{
+  "en": {
+    "_name": "English",
+    "pageMismatchError": "You seem to have reached this page in error. Please try logging in again",
+    "continue": "Continue",
+    "accountLinking": "Account Linking",
+    "introduction": "Would you like to link your BindID account with your Auth0 exising account?",
+    "skipAlternativeLink": "I want to skip this and create a new account. (Not recommended)",
+    "sameEmailAddressError": "Accounts must have matching email addresses. Please try again.",
+    "identities": "",
+    "or": "or"
+  },
+
+  "es": {
+    "_name": "Spanish",
+    "pageMismatchError":
+      "Parece que has llegado a esta página por error. Intenta iniciar sesión nuevamente",
+    "continue": "Continuar",
+    "accountLinking": "Vinculación de cuentas",
+    "introduction":
+      "Parece que ya tienes otra cuenta con la misma dirección de correo electrónico. Recomendamos que vincules las cuentas.",
+    "skipAlternativeLink": "Quiero saltar esto y crear una nueva cuenta. (No recomendado)",
+    "sameEmailAddressError":
+      "Las cuentas deben tener la misma dirección de correo electrónico. Por favor intenta nuevamente.",
+    "identities": "Puedes iniciar sesión con {{identities}} para vincular las cuentas",
+    "or": "o"
+  },
+
+  "ja": {
+    "_name": "Japanease",
+    "pageMismatchError": "アクセスに失敗しました。もう一度ログインしてください。",
+    "continue": "続ける",
+    "accountLinking": "アカウントリンク",
+    "introduction":
+    "同じメールアドレスのアカウントが見つかりました。これらのアカウントを統合することを推奨します。",
+    "skipAlternativeLink": "統合せずに新しいアカウントを作成する。 (非推奨)",
+    "sameEmailAddressError": "一致するメールアドレスが見つかりませんでした。もう一度ログインしてください。",
+    "identities": "統合すると{{identities}}でログインできるようになります。",
+    "or": "または"
+  }
+}
