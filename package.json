@@ -1,6 +1,7 @@
 {
   "name": "auth0-account-link-extension",
   "version": "1.0.0",
+  "stylesheet_version": "2.6.1",
   "description": "Auth0 Account Link Extension",
   "main": "index.js",
   "engines": {
@@ -12,7 +13,7 @@
     "test:integration": "mocha integration --recursive --timeout 50000",
     "lint": "eslint .",
     "serve:dev": "gulp run",
-    "client:build": "minify --clean --output dist/assets/link.$npm_package_version.min.css public/css/link.css && minify --clean --output dist/assets/admin.$npm_package_version.min.css public/css/admin.css",
+    "client:build": "minify --clean --output dist/assets/link.$npm_package_stylesheet_version.min.css public/css/link.css && minify --clean --output dist/assets/admin.$npm_package_stylesheet_version.min.css public/css/admin.css",
     "extension:build": "a0-ext build:server ./webtask.js ./dist && cp ./dist/bindid-auth0-account-link.extension.$npm_package_version.js ./build/bundle.js",
     "build": "yarn run client:build && yarn run extension:build"
   },
